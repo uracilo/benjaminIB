@@ -7,7 +7,7 @@ Este es material del curso de introducción a  Big Data
 Algunas de las herramientas que usamos son
 
 | tecnologia | Link 							|	 ¿Quien?					| ¿Para qué sirve?|
-| :---:		 | :---: 							| :---: | 							| :---: |	
+| :---:		 | :---: 							| :---: 										| :---: |	
 | Docker 		| [docker](https://docker.com) 	|	Solomon Hykes								|  para instanciar nuevos proyectos  |
 
 
