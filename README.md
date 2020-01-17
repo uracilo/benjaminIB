@@ -6,7 +6,7 @@ Este es material del curso de introducción a  Big Data
 
 Algunas de las herramientas que usamos son
 
-[docker](https://docker.com) para instanciar nuevos proyectos
+[docker](https://docker.com) para instanciar nuevos proyectos \n
 [haddop](https://haddop) es una solicion desarrollada por Apache que permite guardar contenido de manera distribuida
 
 
