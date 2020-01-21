@@ -9,6 +9,7 @@ Algunas de las herramientas que usamos son
 | tecnologia | Link 							|	 ¿Quien?					| ¿Para qué sirve?|
 | :---:		 | :---: 							| :---: 										| :---: |	
 | Docker 		| [docker](https://docker.com) 	|	Solomon Hykes								|  para instanciar nuevos proyectos  |
+|haddop| [hadoop](https://hadoop.com)|Apache  | distribuir data mediante un algoritmo que es mapreduce
 
 
 
@@ -18,7 +19,7 @@ Algunas de las herramientas que usamos son
 
 
 ```bash
-pip install foobar
+ls sirve para listar los archivos 
 ```
 
 ## Usage
