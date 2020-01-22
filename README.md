@@ -42,12 +42,19 @@ Este es el repo del maestro Benjamín
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-docker exec -it mysql bash
+
+```sql
+
  mysql -uroot -p
  show databases;
   use company;
  show tables;
  select * from employees;
+```
+```bash
+docker exec -it mysql bash
+
+```
 
 
 ```bash
