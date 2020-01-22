@@ -1,0 +1,23 @@
+version: '3'
+services:
+    web:
+        container_name: web
+        image: uracilo/static:1
+        ports:
+            - "3000:3000"
+        restart: always
+    jupyter:
+        container_name: analisis
+        image: uracilo/bigdataben:2
+        ports:
+            - "8888:8888"
+        volumes:
+            - ./data:/var/lib/data
+        restart: always
+    database:
+        container_name: mysql
+        build: .
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: pwd
