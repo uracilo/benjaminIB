@@ -6,14 +6,6 @@ services:
         ports:
             - "3000:3000"
         restart: always
-    jupyter:
-        container_name: analisis
-        image: uracilo/bigdataben:2
-        ports:
-            - "8888:8888"
-        volumes:
-            - ./data:/var/lib/data
-        restart: always
     database:
         container_name: mysql
         build: .
